@@ -1,3 +1,5 @@
+NOTA IMPORTANTE: Tener en cuenta que el @Autowired del service debe encima de cada instaciación de cada repo(por ejm como se hizo en la "trampita alcaldía")
+
 # crudBackByetcs
 # Querys:
 Query para insertar employees:
