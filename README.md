@@ -9,7 +9,7 @@ Query para seleccionar todos los empleados:
 select * from employee
 
 Query para insertar works:
-insert into work(id, status, date, retdays, empasign) values(3, 'Pendiente','01/12/2022/12:12:12', 171, 3)
+insert into work(id, status, date, retdays, empasign) values(3, 'Pendiente','01-12-2022-12:12:12', 171, 3)
 
 # con el back corriendo tenemos los sgtes endpoints: 
 con get
@@ -46,7 +46,7 @@ en raw, body:
 {
     "id": 3,
     "status": "Pendiente",
-    "date": "01/12/2022/12:12:12",
+    "date": "01-12-2022-12:12:12",
     "retdays": 171,
     "empAsign": 3
 }
